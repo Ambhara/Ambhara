@@ -12,24 +12,29 @@ My strongest work sits at the boundary between:
 
 | Project | Focus | Evidence / engineering signal |
 |---|---|---|
-| [Paparan.ai](https://github.com/Ambhara/paparan-ai-z.ai) | AI policy intelligence product | React/TypeScript, Supabase, retrieval, AI pipeline |
-| [Enterprise Agentic](https://github.com/Ambhara/EnterpriseAgentic) | Agentic RAG | Hybrid retrieval, RRF, reranking, Self-RAG, guardrails, FastAPI, CI |
-| [Aegis](https://github.com/Ambhara/Aegis) | AI assurance & control plane | Governance, bounded execution, OPE, calibration, safety, durable execution |
-| [Quantitative Research](https://github.com/Ambhara/QuantitativeResearch) | Falsification-driven ML research | Point-in-time features, walk-forward evaluation, holdout controls, integrity gates |
+| [NEXUS](https://github.com/Ambhara/Nexus) | Learning / policy intelligence | Causal estimation, policy learning, uncertainty, shift stress testing, evidence-gated promotion |
+| [AEGIS](https://github.com/Ambhara/Aegis) | AI assurance & control plane | Independent evaluation, governance, approvals, bounded execution, auditability |
+| [Enterprise Agentic](https://github.com/Ambhara/EnterpriseAgentic) | Agentic RAG | Hybrid retrieval, RRF, reranking, Self-RAG, guardrails, FastAPI, evaluation |
+| [Paparan.ai](https://github.com/Ambhara/paparan-ai-z.ai) | AI policy-intelligence product prototype | React/TypeScript frontend, policy-brief workflows, local/mock data path |
+| [Quantitative Research](https://github.com/Ambhara/QuantitativeResearch) | Falsification-driven ML research | Point-in-time features, walk-forward evaluation, holdout controls, research-integrity gates |
 | [Retail Demand & Inventory](https://github.com/Ambhara/RetailDemandInv) | Forecasting → uncertainty → inventory decisions | Temporal validation, conformal uncertainty, policy simulation, extensive tests |
 | [Neural Search & LTR](https://github.com/Ambhara/NeuralSearchLeraningRank) | Search and ranking | BM25 + dense + RRF + reranking + LambdaMART, statistical evaluation |
-| [E-Commerce Recommendation](https://github.com/Ambhara/EcommerceRecomendation) | Recommendation and ranking | Temporal evaluation, multi-retriever fusion, LTR, MMR, FastAPI |
 | [Landslide Research](https://github.com/Ambhara/paper) | Controlled geohazard segmentation research | 29 checkpoints, controlled comparisons, multi-seed analysis, reproducibility |
-| [Decision Architecture](https://github.com/Ambhara/Nexus) | NEXUS → AEGIS → ORION | Contract-first autonomy boundary: learn → assure → execute → observe |
+
+The platform relationship is deliberately:
+
+`NEXUS → AEGIS → ORION`
+
+NEXUS learns and proposes; AEGIS independently assures, governs, and authorizes; ORION is the future execution/observation layer.
 
 ## Supporting work
 
-- [NEXUS](https://github.com/Ambhara/Nexus) — causal world modeling, offline policy evaluation, adaptive policy learning, shift stress testing, and evidence-gated promotion.
+- [E-Commerce Recommendation](https://github.com/Ambhara/EcommerceRecomendation) — recommendation and ranking with temporal evaluation and multi-retriever fusion.
 - [Industrial Asset Health](https://github.com/Ambhara/IndustrialHealthAsset) — predictive maintenance, survival analysis, uncertainty, maintenance economics, and constrained scheduling.
 - [UrbanOps AI](https://github.com/Ambhara/UrbanOPS) — spatiotemporal forecasting, uncertainty-aware allocation, simulation, and monitoring.
 - [Marketplace Intelligence](https://github.com/Ambhara/Marketplace-Intelligence-Delivery-Risk-Decision-Science) — data quality, point-in-time features, calibrated risk, policy simulation, and business reporting.
 - [Bayesian MMM & Budgeting](https://github.com/Ambhara/BayesianMMMBudgeting) — Bayesian marketing mix modeling, parameter recovery, and constrained budget optimization.
-- [RAG Eval Harness](https://github.com/Ambhara/rag-eval-harness) — small, deterministic evaluation harness separating retrieval quality from generation quality.
+- [RAG Eval Harness](https://github.com/Ambhara/rag-eval-harness) — deterministic evaluation harness separating retrieval quality from generation quality.
 
 ## Engineering principles
 
