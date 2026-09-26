@@ -21,6 +21,7 @@ My strongest work sits at the boundary between:
 | [Retail Demand & Inventory](https://github.com/Ambhara/RetailDemandInv) | Forecasting → uncertainty → inventory decisions | Temporal validation, conformal uncertainty, policy simulation, extensive tests |
 | [Neural Search & LTR](https://github.com/Ambhara/NeuralSearchLeraningRank) | Search and ranking | BM25 + dense + RRF + reranking + LambdaMART, statistical evaluation |
 | [Landslide Research](https://github.com/Ambhara/paper) | Controlled geohazard segmentation research | 29 checkpoints, controlled comparisons, multi-seed analysis, reproducibility |
+| [ORION](https://github.com/Ambhara/ORION) | Autonomous execution & operations fabric | Event sourcing, policy/assurance integration, idempotent side effects, replay, outcome attribution |
 
 The platform relationship is deliberately:
 
@@ -49,7 +50,7 @@ These are the repositories I would surface first for AI/ML engineering roles. Th
 | [Bayesian MMM & Budgeting](https://github.com/Ambhara/BayesianMMMBudgeting) | Bayesian inference, response curves, parameter recovery, constrained optimization |
 | [Landslide Research](https://github.com/Ambhara/paper) | Controlled deep-learning experiments, multi-seed validation, reproducibility |
 
-**Planned platform projects:** ARGUS (agent evaluation/adversarial evidence) and ORION (execution/observation). They are intentionally not linked until their repositories are published.
+**Evolving platform projects:** [ARGUS](https://github.com/Ambhara/ARGUS) and [ORION](https://github.com/Ambhara/ORION). Both are active repositories and are expected to evolve as the platform architecture matures; their current READMEs are the source of truth for implemented scope.
 
 ## Supporting work
 
