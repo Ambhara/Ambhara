@@ -13,7 +13,7 @@ My strongest work sits at the boundary between:
 | Project | Focus | Evidence / engineering signal |
 |---|---|---|
 | [NEXUS](https://github.com/Ambhara/Nexus) | Learning / policy intelligence | Causal estimation, policy learning, uncertainty, shift stress testing, evidence-gated promotion |
-| [AEGIS](https://github.com/Ambhara/Aegis) | AI assurance & control plane | Independent evaluation, governance, approvals, bounded execution, auditability |
+| **ARGUS** | Agent evaluation & adversarial evidence | Long-horizon trajectories, environments, adversarial testing, tool-use evaluation, reliability evidence |\n| [AEGIS](https://github.com/Ambhara/Aegis) | AI assurance & control plane | Independent assurance, governance, approvals, bounded execution, auditability |
 | [Enterprise Agentic](https://github.com/Ambhara/EnterpriseAgentic) | Agentic RAG | Hybrid retrieval, RRF, reranking, Self-RAG, guardrails, FastAPI, evaluation |
 | [Paparan.ai](https://github.com/Ambhara/paparan-ai-z.ai) | AI policy-intelligence product prototype | React/TypeScript frontend, policy-brief workflows, local/mock data path |
 | [Quantitative Research](https://github.com/Ambhara/QuantitativeResearch) | Falsification-driven ML research | Point-in-time features, walk-forward evaluation, holdout controls, research-integrity gates |
@@ -23,9 +23,9 @@ My strongest work sits at the boundary between:
 
 The platform relationship is deliberately:
 
-`NEXUS → AEGIS → ORION`
+`NEXUS → ARGUS → AEGIS → ORION`
 
-NEXUS learns and proposes; AEGIS independently assures, governs, and authorizes; ORION is the future execution/observation layer.
+NEXUS learns and proposes; ARGUS evaluates agent/system behavior and produces adversarial evidence; AEGIS independently assures, governs, and authorizes; ORION is the execution/observation layer.
 
 ## Supporting work
 
