@@ -1,37 +1,51 @@
-## Hi, I'm Ambhara
+# Hi, I'm Ambhara
 
-Building toward **AI engineering** and **data engineering** — small, finished projects rather than large unfinished ones.
+Building **AI engineering, applied ML, data systems, and decision intelligence** projects with an emphasis on measurable evidence rather than demos.
 
-What I care about in the work below: systems that are *measured*, not demoed. Every AI project ships a scored eval suite with gold labels and abstention cases. Every data pipeline ships quality assertions that fail the build. A README claim here is one I have actually run.
+My strongest work sits at the boundary between:
+- **AI systems** — agentic RAG, retrieval, evaluation, guardrails, and assurance
+- **Decision intelligence** — causal inference, optimization, uncertainty, and policy evaluation
+- **Research engineering** — leakage-safe experiments, reproducibility, statistical validation, and artifact lineage
+- **Data/ML platforms** — APIs, monitoring, CI, Docker, and reproducible pipelines
 
----
+## Flagship projects
 
-## Daily projects
+| Project | Focus | Evidence / engineering signal |
+|---|---|---|
+| [Paparan.ai](https://github.com/Ambhara/paparan-ai-z.ai) | AI policy intelligence product | React/TypeScript, Supabase, retrieval, AI pipeline |
+| [Enterprise Agentic](https://github.com/Ambhara/EnterpriseAgentic) | Agentic RAG | Hybrid retrieval, RRF, reranking, Self-RAG, guardrails, FastAPI, CI |
+| [Aegis](https://github.com/Ambhara/Aegis) | AI assurance & control plane | Governance, bounded execution, OPE, calibration, safety, durable execution |
+| [Quantitative Research](https://github.com/Ambhara/QuantitativeResearch) | Falsification-driven ML research | Point-in-time features, walk-forward evaluation, holdout controls, integrity gates |
+| [Retail Demand & Inventory](https://github.com/Ambhara/RetailDemandInv) | Forecasting → uncertainty → inventory decisions | Temporal validation, conformal uncertainty, policy simulation, extensive tests |
+| [Neural Search & LTR](https://github.com/Ambhara/NeuralSearchLeraningRank) | Search and ranking | BM25 + dense + RRF + reranking + LambdaMART, statistical evaluation |
+| [E-Commerce Recommendation](https://github.com/Ambhara/EcommerceRecomendation) | Recommendation and ranking | Temporal evaluation, multi-retriever fusion, LTR, MMR, FastAPI |
+| [Landslide Research](https://github.com/Ambhara/paper) | Controlled geohazard segmentation research | 29 checkpoints, controlled comparisons, multi-seed analysis, reproducibility |
 
-Six built so far, all currently private. The table below indexes only public
-repositories — a private one would be a dead link for everyone but me — so it
-fills in as any of them opens up. It is regenerated daily by a scheduled Action
-rather than maintained by hand.
+## Supporting work
+
+- [Causal Decision OS](https://github.com/Ambhara/CausalDecision) — causal estimation, Bayesian MMM, uplift modeling, guardrailed policy actions, and closed-loop validation.
+- [Industrial Asset Health](https://github.com/Ambhara/IndustrialHealthAsset) — predictive maintenance, survival analysis, uncertainty, maintenance economics, and constrained scheduling.
+- [UrbanOps AI](https://github.com/Ambhara/UrbanOPS) — spatiotemporal forecasting, uncertainty-aware allocation, simulation, and monitoring.
+- [Marketplace Intelligence](https://github.com/Ambhara/Marketplace-Intelligence-Delivery-Risk-Decision-Science) — data quality, point-in-time features, calibrated risk, policy simulation, and business reporting.
+- [Bayesian MMM & Budgeting](https://github.com/Ambhara/BayesianMMMBudgeting) — Bayesian marketing mix modeling, parameter recovery, and constrained budget optimization.
+- [RAG Eval Harness](https://github.com/Ambhara/rag-eval-harness) — small, deterministic evaluation harness separating retrieval quality from generation quality.
+
+## Engineering principles
+
+**Measure before claiming.**  
+**Separate research evidence from product capability.**  
+**Control leakage and provenance.**  
+**Make uncertainty explicit.**  
+**Prefer reproducible pipelines over notebook-only demos.**  
+**Keep the autonomy boundary constrained and auditable.**
+
+## Stack
+
+Python · TypeScript · React · FastAPI · PyTorch · scikit-learn · LightGBM · PyMC · DuckDB · Polars · PostgreSQL · Supabase · Docker · GitHub Actions
+
+## Repository philosophy
+
+This account contains experiments, coursework, research iterations, and production-style systems. Older iterations are preserved for history; the projects above are the curated portfolio surface.
 
 <!-- PROJECTS:START -->
-_No public daily projects yet._
-
-The projects exist but are private, so they are omitted here rather than listed as links nobody else can open.
 <!-- PROJECTS:END -->
-
----
-
-## Research
-
-Currently under review, so code and results stay private. Happy to talk through any of it.
-
-- **Landslide segmentation** — controlled comparison of CNN and transformer architectures on Landslide4Sense (Sentinel-2 + ALOS PALSAR), including a fair-comparison ablation isolating the effect of ImageNet pretraining across two architectures.
-- **Explainable diabetes prediction** — hybrid neuro-symbolic model combining an MLP with Logical Neural Networks, aimed at keeping predictions interpretable rather than trading interpretability for accuracy.
-
-The methodology is the part I would point at: holding every variable but one constant across configurations, so a difference in results is attributable to something.
-
----
-
-## Tools
-
-Python · uv · DuckDB · Polars · PyTorch · Anthropic SDK · Docker · GitHub Actions
