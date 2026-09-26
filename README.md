@@ -13,7 +13,8 @@ My strongest work sits at the boundary between:
 | Project | Focus | Evidence / engineering signal |
 |---|---|---|
 | [NEXUS](https://github.com/Ambhara/Nexus) | Learning / policy intelligence | Causal estimation, policy learning, uncertainty, shift stress testing, evidence-gated promotion |
-| **ARGUS** | Agent evaluation & adversarial evidence | Long-horizon trajectories, environments, adversarial testing, tool-use evaluation, reliability evidence |\n| [AEGIS](https://github.com/Ambhara/Aegis) | AI assurance & control plane | Independent assurance, governance, approvals, bounded execution, auditability |
+| **ARGUS** | Agent evaluation & adversarial evidence | Long-horizon trajectories, environments, adversarial testing, tool-use evaluation, reliability evidence |
+| [AEGIS](https://github.com/Ambhara/Aegis) | AI assurance & control plane | Independent assurance, governance, approvals, bounded execution, auditability |
 | [Enterprise Agentic](https://github.com/Ambhara/EnterpriseAgentic) | Agentic RAG | Hybrid retrieval, RRF, reranking, Self-RAG, guardrails, FastAPI, evaluation |
 | [Paparan.ai](https://github.com/Ambhara/paparan-ai-z.ai) | AI policy-intelligence product prototype | React/TypeScript frontend, policy-brief workflows, local/mock data path |
 | [Quantitative Research](https://github.com/Ambhara/QuantitativeResearch) | Falsification-driven ML research | Point-in-time features, walk-forward evaluation, holdout controls, research-integrity gates |
@@ -26,6 +27,29 @@ The platform relationship is deliberately:
 `NEXUS → ARGUS → AEGIS → ORION`
 
 NEXUS learns and proposes; ARGUS evaluates agent/system behavior and produces adversarial evidence; AEGIS independently assures, governs, and authorizes; ORION is the execution/observation layer.
+
+## AI/ML Engineer — curated repository list
+
+These are the repositories I would surface first for AI/ML engineering roles. They cover the core system, ML, evaluation, research, and production-engineering signals without treating every repository in the account as a flagship.
+
+| Repository | AI/ML engineering signal |
+|---|---|
+| [NEXUS](https://github.com/Ambhara/Nexus) | Causal learning, policy learning, uncertainty, offline evaluation, research provenance |
+| [AEGIS](https://github.com/Ambhara/Aegis) | AI assurance, agent safety, governance, approvals, bounded execution |
+| [EnterpriseAgentic](https://github.com/Ambhara/EnterpriseAgentic) | Agentic RAG, hybrid retrieval, reranking, Self-RAG, guardrails, FastAPI |
+| [Paparan.ai](https://github.com/Ambhara/paparan-ai-z.ai) | AI policy-intelligence application, TypeScript/React, retrieval-backed workflows |
+| [Quantitative Research](https://github.com/Ambhara/QuantitativeResearch) | Leakage-safe ML research, walk-forward validation, holdouts, integrity gates |
+| [Retail Demand & Inventory](https://github.com/Ambhara/RetailDemandInv) | Forecasting, conformal uncertainty, inventory simulation, temporal evaluation |
+| [Neural Search & LTR](https://github.com/Ambhara/NeuralSearchLeraningRank) | BM25 + dense retrieval, RRF, reranking, LambdaMART, statistical evaluation |
+| [Causal Decision OS](https://github.com/Ambhara/CausalDecision) | Causal estimation, uplift, Bayesian MMM, bounded agentic decisioning |
+| [Industrial Asset Health](https://github.com/Ambhara/IndustrialHealthAsset) | Failure prediction, survival analysis, uncertainty, maintenance optimization |
+| [UrbanOps AI](https://github.com/Ambhara/UrbanOPS) | Spatiotemporal forecasting, uncertainty, constrained allocation, simulation |
+| [E-Commerce Recommendation](https://github.com/Ambhara/EcommerceRecomendation) | Candidate retrieval, LTR, diversity reranking, temporal evaluation |
+| [RAG Eval Harness](https://github.com/Ambhara/rag-eval-harness) | Deterministic retrieval/generation evaluation and abstention testing |
+| [Bayesian MMM & Budgeting](https://github.com/Ambhara/BayesianMMMBudgeting) | Bayesian inference, response curves, parameter recovery, constrained optimization |
+| [Landslide Research](https://github.com/Ambhara/paper) | Controlled deep-learning experiments, multi-seed validation, reproducibility |
+
+**Planned platform projects:** ARGUS (agent evaluation/adversarial evidence) and ORION (execution/observation). They are intentionally not linked until their repositories are published.
 
 ## Supporting work
 
