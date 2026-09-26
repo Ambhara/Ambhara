@@ -20,10 +20,11 @@ My strongest work sits at the boundary between:
 | [Neural Search & LTR](https://github.com/Ambhara/NeuralSearchLeraningRank) | Search and ranking | BM25 + dense + RRF + reranking + LambdaMART, statistical evaluation |
 | [E-Commerce Recommendation](https://github.com/Ambhara/EcommerceRecomendation) | Recommendation and ranking | Temporal evaluation, multi-retriever fusion, LTR, MMR, FastAPI |
 | [Landslide Research](https://github.com/Ambhara/paper) | Controlled geohazard segmentation research | 29 checkpoints, controlled comparisons, multi-seed analysis, reproducibility |
+| [Decision Architecture](https://github.com/Ambhara/Nexus) | NEXUS → AEGIS → ORION | Contract-first autonomy boundary: learn → assure → execute → observe |
 
 ## Supporting work
 
-- [Causal Decision OS](https://github.com/Ambhara/CausalDecision) — causal estimation, Bayesian MMM, uplift modeling, guardrailed policy actions, and closed-loop validation.
+- [NEXUS](https://github.com/Ambhara/Nexus) — causal world modeling, offline policy evaluation, adaptive policy learning, shift stress testing, and evidence-gated promotion.
 - [Industrial Asset Health](https://github.com/Ambhara/IndustrialHealthAsset) — predictive maintenance, survival analysis, uncertainty, maintenance economics, and constrained scheduling.
 - [UrbanOps AI](https://github.com/Ambhara/UrbanOPS) — spatiotemporal forecasting, uncertainty-aware allocation, simulation, and monitoring.
 - [Marketplace Intelligence](https://github.com/Ambhara/Marketplace-Intelligence-Delivery-Risk-Decision-Science) — data quality, point-in-time features, calibrated risk, policy simulation, and business reporting.
