@@ -1,82 +1,96 @@
 # Hi, I'm Ambhara
 
-Building **AI engineering, applied ML, data systems, and decision intelligence** projects with an emphasis on measurable evidence rather than demos.
+I build **AI systems, applied ML, and decision intelligence** with an emphasis on evidence, evaluation, and production boundaries.
 
-My strongest work sits at the boundary between:
-- **AI systems** — agentic RAG, retrieval, evaluation, guardrails, and assurance
-- **Decision intelligence** — causal inference, optimization, uncertainty, and policy evaluation
-- **Research engineering** — leakage-safe experiments, reproducibility, statistical validation, and artifact lineage
-- **Data/ML platforms** — APIs, monitoring, CI, Docker, and reproducible pipelines
+My work focuses on systems that do more than produce predictions. They estimate under uncertainty, learn policies, evaluate decisions, expose failure modes, and keep autonomous behavior bounded and auditable.
 
-## Flagship projects
+## Platform
 
-| Project | Focus | Evidence / engineering signal |
-|---|---|---|
-| [NEXUS](https://github.com/Ambhara/Nexus) | Learning / policy intelligence | Causal estimation, policy learning, uncertainty, shift stress testing, evidence-gated promotion |
-| **ARGUS** | Agent evaluation & adversarial evidence | Long-horizon trajectories, environments, adversarial testing, tool-use evaluation, reliability evidence |
-| [AEGIS](https://github.com/Ambhara/Aegis) | AI assurance & control plane | Independent assurance, governance, approvals, bounded execution, auditability |
-| [Enterprise Agentic](https://github.com/Ambhara/EnterpriseAgentic) | Agentic RAG | Hybrid retrieval, RRF, reranking, Self-RAG, guardrails, FastAPI, evaluation |
-| [Paparan.ai](https://github.com/Ambhara/paparan-ai-z.ai) | AI policy-intelligence product prototype | React/TypeScript frontend, policy-brief workflows, local/mock data path |
-| [Quantitative Research](https://github.com/Ambhara/QuantitativeResearch) | Falsification-driven ML research | Point-in-time features, walk-forward evaluation, holdout controls, research-integrity gates |
-| [Retail Demand & Inventory](https://github.com/Ambhara/RetailDemandInv) | Forecasting → uncertainty → inventory decisions | Temporal validation, conformal uncertainty, policy simulation, extensive tests |
-| [Neural Search & LTR](https://github.com/Ambhara/NeuralSearchLeraningRank) | Search and ranking | BM25 + dense + RRF + reranking + LambdaMART, statistical evaluation |
-| [Landslide Research](https://github.com/Ambhara/paper) | Controlled geohazard segmentation research | 29 checkpoints, controlled comparisons, multi-seed analysis, reproducibility |
-| [ORION](https://github.com/Ambhara/ORION) | Autonomous execution & operations fabric | Event sourcing, policy/assurance integration, idempotent side effects, replay, outcome attribution |
-
-The platform relationship is deliberately:
+My current platform architecture is:
 
 `NEXUS → ARGUS → AEGIS → ORION`
 
-NEXUS learns and proposes; ARGUS evaluates agent/system behavior and produces adversarial evidence; AEGIS independently assures, governs, and authorizes; ORION is the execution/observation layer.
+| Project | Role | What it demonstrates |
+|---|---|---|
+| [NEXUS](https://github.com/Ambhara/Nexus) | Learning and policy intelligence | Causal estimation, policy learning, uncertainty, world models, offline evaluation, policy artifacts |
+| [ARGUS](https://github.com/Ambhara/ARGUS) | Evaluation and adversarial evidence | Trajectory evaluation, adversarial environments, tool-use evaluation, recovery, cost, provenance |
+| [AEGIS](https://github.com/Ambhara/Aegis) | Assurance and control plane | Governance, approvals, assurance boundaries, auditability, bounded autonomy |
+| [ORION](https://github.com/Ambhara/ORION) | Execution and operations fabric | Event sourcing, state projection, policy and assurance integration, idempotent side effects, replay, outcome attribution |
 
-## AI/ML Engineer — curated repository list
+The boundaries are intentional:
 
-These are the repositories I would surface first for AI/ML engineering roles. They cover the core system, ML, evaluation, research, and production-engineering signals without treating every repository in the account as a flagship.
+**NEXUS** learns and proposes.  
+**ARGUS** evaluates and produces evidence.  
+**AEGIS** assures, governs, and authorizes.  
+**ORION** executes, observes, and attributes outcomes.
 
-| Repository | AI/ML engineering signal |
-|---|---|
-| [NEXUS](https://github.com/Ambhara/Nexus) | Causal learning, policy learning, uncertainty, offline evaluation, research provenance |
-| [AEGIS](https://github.com/Ambhara/Aegis) | AI assurance, agent safety, governance, approvals, bounded execution |
-| [EnterpriseAgentic](https://github.com/Ambhara/EnterpriseAgentic) | Agentic RAG, hybrid retrieval, reranking, Self-RAG, guardrails, FastAPI |
-| [Paparan.ai](https://github.com/Ambhara/paparan-ai-z.ai) | AI policy-intelligence application, TypeScript/React, retrieval-backed workflows |
-| [Quantitative Research](https://github.com/Ambhara/QuantitativeResearch) | Leakage-safe ML research, walk-forward validation, holdouts, integrity gates |
-| [Retail Demand & Inventory](https://github.com/Ambhara/RetailDemandInv) | Forecasting, conformal uncertainty, inventory simulation, temporal evaluation |
-| [Neural Search & LTR](https://github.com/Ambhara/NeuralSearchLeraningRank) | BM25 + dense retrieval, RRF, reranking, LambdaMART, statistical evaluation |
-| [Causal Decision OS](https://github.com/Ambhara/CausalDecision) | Causal estimation, uplift, Bayesian MMM, bounded agentic decisioning |
-| [Industrial Asset Health](https://github.com/Ambhara/IndustrialHealthAsset) | Failure prediction, survival analysis, uncertainty, maintenance optimization |
-| [UrbanOps AI](https://github.com/Ambhara/UrbanOPS) | Spatiotemporal forecasting, uncertainty, constrained allocation, simulation |
-| [E-Commerce Recommendation](https://github.com/Ambhara/EcommerceRecomendation) | Candidate retrieval, LTR, diversity reranking, temporal evaluation |
-| [RAG Eval Harness](https://github.com/Ambhara/rag-eval-harness) | Deterministic retrieval/generation evaluation and abstention testing |
-| [Bayesian MMM & Budgeting](https://github.com/Ambhara/BayesianMMMBudgeting) | Bayesian inference, response curves, parameter recovery, constrained optimization |
-| [Landslide Research](https://github.com/Ambhara/paper) | Controlled deep-learning experiments, multi-seed validation, reproducibility |
+ARGUS and ORION are active, evolving repositories. Their current READMEs are the source of truth for implemented scope.
 
-**Evolving platform projects:** [ARGUS](https://github.com/Ambhara/ARGUS) and [ORION](https://github.com/Ambhara/ORION). Both are active repositories and are expected to evolve as the platform architecture matures; their current READMEs are the source of truth for implemented scope.
+## Selected work
 
-## Supporting work
+### Agentic AI
 
-- [E-Commerce Recommendation](https://github.com/Ambhara/EcommerceRecomendation) — recommendation and ranking with temporal evaluation and multi-retriever fusion.
-- [Industrial Asset Health](https://github.com/Ambhara/IndustrialHealthAsset) — predictive maintenance, survival analysis, uncertainty, maintenance economics, and constrained scheduling.
-- [UrbanOps AI](https://github.com/Ambhara/UrbanOPS) — spatiotemporal forecasting, uncertainty-aware allocation, simulation, and monitoring.
-- [Marketplace Intelligence](https://github.com/Ambhara/Marketplace-Intelligence-Delivery-Risk-Decision-Science) — data quality, point-in-time features, calibrated risk, policy simulation, and business reporting.
-- [Bayesian MMM & Budgeting](https://github.com/Ambhara/BayesianMMMBudgeting) — Bayesian marketing mix modeling, parameter recovery, and constrained budget optimization.
-- [RAG Eval Harness](https://github.com/Ambhara/rag-eval-harness) — deterministic evaluation harness separating retrieval quality from generation quality.
+- [EnterpriseAgentic](https://github.com/Ambhara/EnterpriseAgentic)  
+  Agentic RAG with hybrid retrieval, RRF, reranking, Self-RAG, guardrails, FastAPI, and evaluation.
+
+- [RAG Eval Harness](https://github.com/Ambhara/rag-eval-harness)  
+  Deterministic evaluation of retrieval and generation quality, including abstention testing.
+
+- [Paparan.ai](https://github.com/Ambhara/paparan-ai-z.ai)  
+  Policy-intelligence application prototype built around retrieval-backed workflows.
+
+### Decision intelligence and applied ML
+
+- [Causal Decision OS](https://github.com/Ambhara/CausalDecision)  
+  Causal estimation, uplift, Bayesian decisioning, and bounded agentic decision workflows.
+
+- [Retail Demand & Inventory](https://github.com/Ambhara/RetailDemandInv)  
+  Forecasting, conformal uncertainty, temporal validation, and inventory policy simulation.
+
+- [Industrial Asset Health](https://github.com/Ambhara/IndustrialHealthAsset)  
+  Failure prediction, survival analysis, uncertainty, and maintenance optimization.
+
+- [UrbanOps AI](https://github.com/Ambhara/UrbanOPS)  
+  Spatiotemporal forecasting, uncertainty-aware allocation, simulation, and monitoring.
+
+- [Marketplace Intelligence](https://github.com/Ambhara/Marketplace-Intelligence-Delivery-Risk-Decision-Science)  
+  Point-in-time features, calibrated risk, policy simulation, data-quality controls, and business reporting.
+
+- [Bayesian MMM & Budgeting](https://github.com/Ambhara/BayesianMMMBudgeting)  
+  Bayesian marketing mix modeling, parameter recovery, response curves, and constrained optimization.
+
+### Search and ranking
+
+- [Neural Search & LTR](https://github.com/Ambhara/NeuralSearchLeraningRank)  
+  BM25, dense retrieval, RRF, reranking, LambdaMART, and statistical evaluation.
+
+### Research engineering
+
+- [Quantitative Research](https://github.com/Ambhara/QuantitativeResearch)  
+  Leakage-safe features, walk-forward evaluation, holdout controls, and research-integrity gates.
+
+- [Landslide Research](https://github.com/Ambhara/paper)  
+  Controlled deep-learning experiments, multi-seed validation, and reproducibility.
 
 ## Engineering principles
 
-**Measure before claiming.**  
-**Separate research evidence from product capability.**  
-**Control leakage and provenance.**  
-**Make uncertainty explicit.**  
-**Prefer reproducible pipelines over notebook-only demos.**  
-**Keep the autonomy boundary constrained and auditable.**
+**Evidence before claims.**  
+**Research evidence is separate from product capability.**  
+**Uncertainty and limitations are explicit.**  
+**Data leakage and provenance are first-class concerns.**  
+**Evaluation includes failure modes, not just headline metrics.**  
+**Autonomous systems stay inside explicit authorization boundaries.**  
+**Reproducible pipelines matter more than notebook-only demos.**
 
 ## Stack
 
 Python · TypeScript · React · FastAPI · PyTorch · scikit-learn · LightGBM · PyMC · DuckDB · Polars · PostgreSQL · Supabase · Docker · GitHub Actions
 
-## Repository philosophy
+## About this repository portfolio
 
-This account contains experiments, coursework, research iterations, and production-style systems. Older iterations are preserved for history; the projects above are the curated portfolio surface.
+This account contains experiments, research iterations, coursework, and production-style systems.
+
+The projects above are the curated portfolio surface. Older repositories are preserved where they provide useful history or supporting evidence rather than being presented as separate flagship systems.
 
 <!-- PROJECTS:START -->
 <!-- PROJECTS:END -->
