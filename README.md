@@ -1,37 +1,96 @@
-## Hi, I'm Ambhara
+# Hi, I'm Ambhara
 
-Building toward **AI engineering** and **data engineering** — small, finished projects rather than large unfinished ones.
+I build **AI systems, applied ML, and decision intelligence** with an emphasis on evidence, evaluation, and production boundaries.
 
-What I care about in the work below: systems that are *measured*, not demoed. Every AI project ships a scored eval suite with gold labels and abstention cases. Every data pipeline ships quality assertions that fail the build. A README claim here is one I have actually run.
+My work focuses on systems that do more than produce predictions. They estimate under uncertainty, learn policies, evaluate decisions, expose failure modes, and keep autonomous behavior bounded and auditable.
 
----
+## Platform
 
-## Daily projects
+My current platform architecture is:
 
-Six built so far, all currently private. The table below indexes only public
-repositories — a private one would be a dead link for everyone but me — so it
-fills in as any of them opens up. It is regenerated daily by a scheduled Action
-rather than maintained by hand.
+`NEXUS → ARGUS → AEGIS → ORION`
+
+| Project | Role | What it demonstrates |
+|---|---|---|
+| [NEXUS](https://github.com/Ambhara/Nexus) | Learning and policy intelligence | Causal estimation, policy learning, uncertainty, world models, offline evaluation, policy artifacts |
+| [ARGUS](https://github.com/Ambhara/ARGUS) | Evaluation and adversarial evidence | Trajectory evaluation, adversarial environments, tool-use evaluation, recovery, cost, provenance |
+| [AEGIS](https://github.com/Ambhara/Aegis) | Assurance and control plane | Governance, approvals, assurance boundaries, auditability, bounded autonomy |
+| [ORION](https://github.com/Ambhara/ORION) | Execution and operations fabric | Event sourcing, state projection, policy and assurance integration, idempotent side effects, replay, outcome attribution |
+
+The boundaries are intentional:
+
+**NEXUS** learns and proposes.  
+**ARGUS** evaluates and produces evidence.  
+**AEGIS** assures, governs, and authorizes.  
+**ORION** executes, observes, and attributes outcomes.
+
+ARGUS and ORION are active, evolving repositories. Their current READMEs are the source of truth for implemented scope.
+
+## Selected work
+
+### Agentic AI
+
+- [EnterpriseAgentic](https://github.com/Ambhara/EnterpriseAgentic)  
+  Agentic RAG with hybrid retrieval, RRF, reranking, Self-RAG, guardrails, FastAPI, and evaluation.
+
+- [RAG Eval Harness](https://github.com/Ambhara/rag-eval-harness)  
+  Deterministic evaluation of retrieval and generation quality, including abstention testing.
+
+- [Paparan.ai](https://github.com/Ambhara/paparan-ai-z.ai)  
+  Policy-intelligence application prototype built around retrieval-backed workflows.
+
+### Decision intelligence and applied ML
+
+- [Causal Decision OS](https://github.com/Ambhara/CausalDecision)  
+  Causal estimation, uplift, Bayesian decisioning, and bounded agentic decision workflows.
+
+- [Retail Demand & Inventory](https://github.com/Ambhara/RetailDemandInv)  
+  Forecasting, conformal uncertainty, temporal validation, and inventory policy simulation.
+
+- [Industrial Asset Health](https://github.com/Ambhara/IndustrialHealthAsset)  
+  Failure prediction, survival analysis, uncertainty, and maintenance optimization.
+
+- [UrbanOps AI](https://github.com/Ambhara/UrbanOPS)  
+  Spatiotemporal forecasting, uncertainty-aware allocation, simulation, and monitoring.
+
+- [Marketplace Intelligence](https://github.com/Ambhara/Marketplace-Intelligence-Delivery-Risk-Decision-Science)  
+  Point-in-time features, calibrated risk, policy simulation, data-quality controls, and business reporting.
+
+- [Bayesian MMM & Budgeting](https://github.com/Ambhara/BayesianMMMBudgeting)  
+  Bayesian marketing mix modeling, parameter recovery, response curves, and constrained optimization.
+
+### Search and ranking
+
+- [Neural Search & LTR](https://github.com/Ambhara/NeuralSearchLeraningRank)  
+  BM25, dense retrieval, RRF, reranking, LambdaMART, and statistical evaluation.
+
+### Research engineering
+
+- [Quantitative Research](https://github.com/Ambhara/QuantitativeResearch)  
+  Leakage-safe features, walk-forward evaluation, holdout controls, and research-integrity gates.
+
+- [Landslide Research](https://github.com/Ambhara/paper)  
+  Controlled deep-learning experiments, multi-seed validation, and reproducibility.
+
+## Engineering principles
+
+**Evidence before claims.**  
+**Research evidence is separate from product capability.**  
+**Uncertainty and limitations are explicit.**  
+**Data leakage and provenance are first-class concerns.**  
+**Evaluation includes failure modes, not just headline metrics.**  
+**Autonomous systems stay inside explicit authorization boundaries.**  
+**Reproducible pipelines matter more than notebook-only demos.**
+
+## Stack
+
+Python · TypeScript · React · FastAPI · PyTorch · scikit-learn · LightGBM · PyMC · DuckDB · Polars · PostgreSQL · Supabase · Docker · GitHub Actions
+
+## About this repository portfolio
+
+This account contains experiments, research iterations, coursework, and production-style systems.
+
+The projects above are the curated portfolio surface. Older repositories are preserved where they provide useful history or supporting evidence rather than being presented as separate flagship systems.
 
 <!-- PROJECTS:START -->
-_No public daily projects yet._
-
-The projects exist but are private, so they are omitted here rather than listed as links nobody else can open.
 <!-- PROJECTS:END -->
-
----
-
-## Research
-
-Currently under review, so code and results stay private. Happy to talk through any of it.
-
-- **Landslide segmentation** — controlled comparison of CNN and transformer architectures on Landslide4Sense (Sentinel-2 + ALOS PALSAR), including a fair-comparison ablation isolating the effect of ImageNet pretraining across two architectures.
-- **Explainable diabetes prediction** — hybrid neuro-symbolic model combining an MLP with Logical Neural Networks, aimed at keeping predictions interpretable rather than trading interpretability for accuracy.
-
-The methodology is the part I would point at: holding every variable but one constant across configurations, so a difference in results is attributable to something.
-
----
-
-## Tools
-
-Python · uv · DuckDB · Polars · PyTorch · Anthropic SDK · Docker · GitHub Actions
